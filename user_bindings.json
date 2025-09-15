@@ -1,0 +1,16 @@
+{
+  "bindings": [
+    {
+      "user_id": "user1",
+      "db_file": "test1.db",
+      "created_at": "2025-09-14T22:41:19.562603",
+      "last_accessed": "2025-09-14T22:41:19.563049"
+    },
+    {
+      "user_id": "mao",
+      "db_file": "9-14.db",
+      "created_at": "2025-09-14T22:42:09.206721",
+      "last_accessed": "2025-09-15T15:27:35.013373"
+    }
+  ]
+}

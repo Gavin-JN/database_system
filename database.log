@@ -1,0 +1,92 @@
+ei2025-09-14 17:33:34 - database - INFO - 数据库系统启动
+2025-09-14 17:33:45 - database - INFO - 查看所有表格
+2025-09-14 17:34:00 - database - INFO - SQL执行 SUCCESS | {'sql': 'SELECT * FROM student;', 'duration': '0.011s', 'rows_affected': 0, 'error': None}
+2025-09-14 17:34:30 - database - INFO - SQL执行 SUCCESS | {'sql': 'SELECT * FROM student WHERE age<18 ;', 'duration': '0.010s', 'rows_affected': 0, 'error': None}
+2025-09-14 17:34:48 - database - INFO - SQL执行 SUCCESS | {'sql': 'SELECT * FROM student WHERE age<22 ;', 'duration': '0.009s', 'rows_affected': 0, 'error': None}
+2025-09-14 17:34:55 - database - INFO - SQL执行 SUCCESS | {'sql': 'SELECT * FROM course;', 'duration': '0.012s', 'rows_affected': 0, 'error': None}
+2025-09-14 17:35:08 - database - INFO - 退出数据库系统
+2025-09-14 22:02:12 - database - DEBUG - 缓存写入 | {'page_id': 1, 'hit': False}
+2025-09-14 22:02:12 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:02:12 - database - DEBUG - 缓存写入 | {'page_id': 2, 'hit': False}
+2025-09-14 22:02:12 - database - DEBUG - 缓存读取 | {'page_id': 2, 'hit': True}
+2025-09-14 22:02:12 - database - DEBUG - 缓存读取 | {'page_id': 2, 'hit': True}
+2025-09-14 22:02:12 - database - DEBUG - 缓存读取 | {'page_id': 2, 'hit': True}
+2025-09-14 22:02:12 - database - DEBUG - 缓存读取 | {'page_id': 2, 'hit': True}
+2025-09-14 22:02:12 - database - DEBUG - 缓存写入 | {'page_id': 1, 'hit': False}
+2025-09-14 22:02:12 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:02:12 - database - DEBUG - 缓存写入 | {'page_id': 2, 'hit': False}
+2025-09-14 22:02:12 - database - DEBUG - 缓存读取 | {'page_id': 2, 'hit': True}
+2025-09-14 22:02:12 - database - DEBUG - 缓存读取 | {'page_id': 2, 'hit': True}
+2025-09-14 22:02:12 - database - DEBUG - 缓存读取 | {'page_id': 2, 'hit': True}
+2025-09-14 22:02:12 - database - DEBUG - 缓存读取 | {'page_id': 2, 'hit': True}
+2025-09-14 22:03:18 - database - DEBUG - 缓存写入 | {'page_id': 1, 'hit': False}
+2025-09-14 22:03:18 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:03:18 - database - DEBUG - 缓存写入 | {'page_id': 2, 'hit': False}
+2025-09-14 22:03:18 - database - DEBUG - 缓存读取 | {'page_id': 2, 'hit': True}
+2025-09-14 22:03:18 - database - DEBUG - 缓存读取 | {'page_id': 2, 'hit': True}
+2025-09-14 22:03:18 - database - DEBUG - 缓存读取 | {'page_id': 2, 'hit': True}
+2025-09-14 22:03:18 - database - DEBUG - 缓存读取 | {'page_id': 2, 'hit': True}
+2025-09-14 22:12:16 - database - DEBUG - 缓存写入 | {'page_id': 1, 'hit': False}
+2025-09-14 22:12:16 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:12:16 - database - DEBUG - 缓存写入 | {'page_id': 2, 'hit': False}
+2025-09-14 22:13:30 - database - DEBUG - 缓存写入 | {'page_id': 1, 'hit': False}
+2025-09-14 22:13:30 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:13:30 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:13:30 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:13:30 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:13:30 - database - INFO - 数据库系统启动
+2025-09-14 22:14:10 - database - INFO - SQL执行 FAILED | {'sql': "CREATE PROCEDURE get_students() AS 'SELECT * FROM student;';", 'duration': '0.000s', 'rows_affected': 0, 'error': "执行错误: type object 'TokenType' has no attribute 'AS'"}
+2025-09-14 22:38:04 - database - INFO - 数据库系统启动
+2025-09-14 22:38:23 - database - INFO - SQL执行 FAILED | {'sql': 'python main.py user1', 'duration': '0.000s', 'rows_affected': 0, 'error': '执行错误: 语法错误: 未知语句类型: python (行1, 列1)'}
+2025-09-14 22:38:47 - database - INFO - SQL执行 FAILED | {'sql': 'python main.py user1', 'duration': '0.000s', 'rows_affected': 0, 'error': '执行错误: 语法错误: 未知语句类型: python (行1, 列1)'}
+2025-09-14 22:39:05 - database - INFO - SQL执行 FAILED | {'sql': 'python main.py user1', 'duration': '0.000s', 'rows_affected': 0, 'error': '执行错误: 语法错误: 未知语句类型: python (行1, 列1)'}
+2025-09-14 22:39:13 - database - INFO - SQL执行 FAILED | {'sql': 'python -c "from database.user_manager import UserManager; um = UserManager(); print(\'用户1的数据库:\', um.g...', 'duration': '0.000s', 'rows_affected': 0, 'error': '执行错误: 语法错误: 未知语句类型: python (行1, 列1)'}
+2025-09-14 22:39:24 - database - INFO - 退出数据库系统
+2025-09-14 22:39:41 - database - INFO - 数据库系统启动
+2025-09-14 22:39:55 - database - INFO - SQL执行 FAILED | {'sql': 'python main.py user1', 'duration': '0.000s', 'rows_affected': 0, 'error': '执行错误: 语法错误: 未知语句类型: python (行1, 列1)'}
+2025-09-14 22:40:04 - database - INFO - 退出数据库系统
+2025-09-14 22:40:17 - database - INFO - 数据库系统启动
+2025-09-14 22:40:24 - database - INFO - 退出数据库系统
+2025-09-14 22:40:34 - database - INFO - 数据库系统启动
+2025-09-14 22:40:41 - database - INFO - 查看所有表格
+2025-09-14 22:40:47 - database - INFO - 退出数据库系统
+2025-09-14 22:41:19 - database - INFO - 数据库系统启动
+2025-09-14 22:42:09 - database - INFO - 数据库系统启动
+2025-09-14 22:42:22 - database - DEBUG - 缓存写入 | {'page_id': 1, 'hit': False}
+2025-09-14 22:42:22 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:42:22 - database - INFO - SQL执行 SUCCESS | {'sql': 'CREATE TABLE student(id INT, name VARCHAR, age INT, grade VARCHAR);', 'duration': '0.022s', 'rows_affected': 0, 'error': None}
+2025-09-14 22:42:27 - database - DEBUG - 缓存写入 | {'page_id': 2, 'hit': False}
+2025-09-14 22:42:27 - database - INFO - SQL执行 SUCCESS | {'sql': "INSERT INTO student(id,name,age,grade) VALUES (1,'Alice',20,'A');", 'duration': '0.038s', 'rows_affected': 0, 'error': None}
+2025-09-14 22:42:32 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:42:32 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:42:32 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:42:32 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:42:32 - database - INFO - SQL执行 SUCCESS | {'sql': 'CREATE TABLE course(id INT, title VARCHAR, credits INT);', 'duration': '0.059s', 'rows_affected': 0, 'error': None}
+2025-09-14 22:42:37 - database - DEBUG - 缓存写入 | {'page_id': 3, 'hit': False}
+2025-09-14 22:42:37 - database - INFO - SQL执行 SUCCESS | {'sql': "INSERT INTO course(id,title,credits) VALUES (1,'Database Systems',3);", 'duration': '0.044s', 'rows_affected': 0, 'error': None}
+2025-09-14 22:42:40 - database - INFO - 退出数据库系统
+2025-09-14 22:42:57 - database - DEBUG - 缓存写入 | {'page_id': 1, 'hit': False}
+2025-09-14 22:42:57 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:42:57 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:42:57 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-14 22:42:57 - database - INFO - 数据库系统启动
+2025-09-14 22:42:59 - database - INFO - 查看所有表格
+2025-09-14 22:43:06 - database - DEBUG - 缓存写入 | {'page_id': 2, 'hit': False}
+2025-09-14 22:43:06 - database - INFO - SQL执行 SUCCESS | {'sql': 'SELECT * FROM student;', 'duration': '0.011s', 'rows_affected': 0, 'error': None}
+2025-09-14 22:43:11 - database - DEBUG - 缓存写入 | {'page_id': 3, 'hit': False}
+2025-09-14 22:43:11 - database - INFO - SQL执行 SUCCESS | {'sql': 'SELECT * FROM course;', 'duration': '0.011s', 'rows_affected': 0, 'error': None}
+2025-09-15 15:24:13 - database - DEBUG - 缓存写入 | {'page_id': 1, 'hit': False}
+2025-09-15 15:24:13 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-15 15:24:13 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-15 15:24:13 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-15 15:24:13 - database - INFO - 数据库系统启动
+2025-09-15 15:24:24 - database - DEBUG - 缓存写入 | {'page_id': 2, 'hit': False}
+2025-09-15 15:24:24 - database - INFO - SQL执行 SUCCESS | {'sql': 'SELECT * FROM student;', 'duration': '0.018s', 'rows_affected': 0, 'error': None}
+2025-09-15 15:27:28 - database - INFO - 退出数据库系统
+2025-09-15 15:27:35 - database - DEBUG - 缓存写入 | {'page_id': 1, 'hit': False}
+2025-09-15 15:27:35 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-15 15:27:35 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-15 15:27:35 - database - DEBUG - 缓存读取 | {'page_id': 1, 'hit': True}
+2025-09-15 15:27:35 - database - INFO - 数据库系统启动
+2025-09-15 15:27:39 - database - INFO - 查看表student的详细信息
+2025-09-15 15:27:53 - database - INFO - 查看帮助
